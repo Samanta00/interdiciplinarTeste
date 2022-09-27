@@ -1,0 +1,45 @@
+.input__cadastro{
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1.3rem;
+    box-shadow: 4px 4px 3px rgb(72, 72, 72);
+    padding: .8rem 1rem;
+}
+html{
+    overflow: hidden;
+}
+
+.input__cadastro--botao{
+    margin-top: 2rem;
+    background-color: #D77101;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.login__usuario--perfil{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+
+.informacoes__label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: .5rem;
+    padding-left: 3rem;
+    display: block; 
+    color: #f8f8f8;
+}
+@media (min-width:376px){
+    main{
+        padding: 20%;
+        padding-top: 0%;
+    }
+}

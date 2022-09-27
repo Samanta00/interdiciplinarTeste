@@ -1,0 +1,54 @@
+.home--cabecalho{
+    margin-top: 3rem;
+}
+
+.logo--home{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.login__inicial--home{
+    margin: 0 auto;
+}
+
+.botoes__acesso{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.botoes__acesso--login{
+    background-color: #D77101;
+    color: #fff;
+}
+
+.botoes__acesso--cadastro{
+    background-color: #431214;
+    color: #fff;
+}
+html{
+    overflow: hidden;
+}
+
+.home--link{
+    text-decoration: none;
+    color: #fff;
+}
+@media (min-width:376px){
+    main{
+        padding: 20%;
+        padding-top: 0%;
+    }
+    .logo--home{
+        width: 35%;
+        
+    }
+}

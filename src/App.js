@@ -1,24 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter,Routes,Route,Link,} from "react-router-dom";
+
+import Rotas from './routes';
+import Sistema from './Pages/Sistema/sistema';
+import Home from './Pages/PageHome/home';
+import Cadastro from './Pages/Cadastro/cadastroAtual';
+import PageInicial from './Pages/PageInicial/login';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<PageInicial/>}/>
+          <Route path="/Home" element={<Home />} />
+          <Route path='/cadastro' element={<Cadastro/>} />
+          <Route path='/Sistema' element={<Sistema/>}/> 
+         
+        </Routes>
+    </BrowserRouter>
+
+
+   
+
+
   );
 }
 

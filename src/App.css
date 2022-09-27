@@ -1,7 +1,21 @@
 .App {
   text-align: center;
+
+}
+body{
+    background: url("../src/Pages/Cadastro/background-das-telas.png");
+    background-repeat:no-repeat;
+ background-size: cover;
+ 
+  
 }
 
+.max-width {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,0 +1,24 @@
+.cartao{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #d7900176;
+}
+html{
+    overflow: hidden;
+}
+.cartao__imagem--imagem{
+    width: 115px;
+    height: 115px;
+    display: inline-block;
+}
+
+.cartao__imagem--div{
+    width: 40%;
+    display: flex;
+}
+
+.cartao__informacoes{
+    padding: .4rem;
+    margin-left: .4rem;
+    width: 100px;
+}

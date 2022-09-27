@@ -1,0 +1,82 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background: url("../background-das-telas.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+ 
+}
+.submitButton{
+border-radius: 3.1vh;
+width: 15vw;
+height: 3vw;
+background-color: rgb(233, 139, 17);
+margin-top: 3vw;
+}
+.envFoto{
+    background-color: gray;
+    border-radius: 18.1vh;
+    border: 6px solid #ccc;
+    margin-top: 9%;
+    width: 100%;
+    max-width: 164px;
+}
+#perfil{
+   margin-top: 10%;
+   max-width: 300px;
+   width: 100%;
+   padding: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+   
+}
+#mais{
+    background-color: rgb(233, 139, 17);
+    cursor: pointer;
+    border-radius: 3.2vw;
+    width: 5vw;
+    margin-left: 62vh;
+    margin-top: -3vw;
+}
+#mais:hover{
+    background-color:(180,180,180) 
+}
+.filhoEnvFoto{
+  
+
+}
+.paiEnvFoto{
+   background-color: white;
+
+}
+.inputForm {
+    width: 15vw;
+    height: 2.5vw;
+    border-radius: 3.1vh;
+    margin-top: 1vw;
+    padding-left: 1vw;
+}
+input[type='file']{
+    display: none;
+}
+.imageInput{
+    width: 20%;
+}
+.formulario{
+    padding: 0vw;
+    margin-top: 12vw;
+    display: grid;
+}
+
+.input-menssage-error{
+    color: red;
+    display: none;
+}
+.corpo{
+  
+}
